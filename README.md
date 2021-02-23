@@ -4,7 +4,7 @@ Run the Habitat Supervisor in a "shim" container.
 
 ## Running in Docker
 
-See instructios for using the container based on this repo [here](https://github.com/users/bixu/packages/container/package/hab).
+Instructions for using the container based on this repo are [here](https://github.com/users/bixu/packages/container/package/hab).
 
 ## Basic Usage
 
