@@ -14,7 +14,7 @@ jobs:
         uses: docker/login-action@v1.8.0
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner}}
+          username: bixu
           password: ${{ secrets.CONTAINER_REGISTRY_WRITE_TOKEN }}
       -
         name: Build and Push
