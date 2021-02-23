@@ -9,3 +9,5 @@ RUN apk update \
   && hab pkg install "core/hab-launcher" \
   && hab pkg install "core/hab-sup" \
   && apk del --no-cache "bash" "curl"
+
+LABEL org.opencontainers.image.source https://github.com/bixu/hab
