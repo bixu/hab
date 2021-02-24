@@ -1,3 +1,5 @@
+[![ci](https://github.com/bixu/hab/actions/workflows/docker.yaml/badge.svg)](https://github.com/bixu/hab/actions/workflows/docker.yaml)
+
 # hab
 
 Run the Habitat Supervisor in a "shim" container.
