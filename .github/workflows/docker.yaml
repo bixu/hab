@@ -1,6 +1,12 @@
 name: ci
 
 on:
+  pull_request:
+    types:
+      - opened
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 3 * * 3"
 
@@ -17,7 +23,7 @@ jobs:
         with:
           registry: ghcr.io
           username: bixu
-          password: ${{ secrets.CONTAINER_REGISTRY_WRITE_TOKEN }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       -
         name: Build and Push
         id: docker_build
